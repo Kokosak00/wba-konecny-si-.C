@@ -1,0 +1,44 @@
+
+
+
+
+.flex-container {
+    border:cadetblue;
+    background-color: cadetblue;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;  
+    justify-content: center;
+    width: 1200px;
+    
+    
+    
+   
+
+    
+  }
+  .flex-items{
+    border: cadetblue solid;
+    background-color: khaki;
+    border-width: 5px;
+    width:100%;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+   
+    
+        
+}
+ .flex-center{
+ align-items: center;
+  justify-content: center;
+  
+  display: flex;
+  justify-items: center;
+ height: 100vh;
+ }
+  
