@@ -1,0 +1,86 @@
+
+
+body{
+background-image: url("Cosmic-Gradient-14.jpg");
+background-size: cover;
+}
+
+.flex-container {
+    border:cadetblue;
+    background-color: cadetblue;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;   
+    width: 80vw;   
+  }
+
+  .flex-items-25{
+    border: darkblue;
+    background-color: rgba(38, 32, 62, 0.8);
+    color: white;
+    border-width: 5px;
+    width:25%;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;        
+}
+
+.flex-10{
+  border:darkblue;
+  background-color: rgba(38, 32, 62, 0.8);
+  border-width: 5px;
+  width:10vh;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.flex-items-50{
+  border: darkblue;
+  background-color: rgba(38, 32, 62, 0.8);
+  border-width: 5px;
+  width:50%;
+  color: white;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;      
+}
+
+.flex-items{
+padding: 2%;
+}
+
+ .flex-top{
+ align-items: center;
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  justify-items: center;
+ }
+ 
+ .flex-center{
+  align-items: center;
+   justify-content: center;
+   align-content: center;
+   display: flex;
+   justify-items: center; 
+   margin-top: 10vh;
+   margin-bottom: 10vh;
+   background-color: white;
+   margin-left: 50vw;
+   margin-right: 50vw;
+   width:25vw;
+   height: 25vh;
+  }
+  
